@@ -1,15 +1,24 @@
-$("#change").click(function () {
-  $("#change").html("Sim");
+var c=0;
+$("#change").click(function() {
+  if (c == 1) {
+  acerto();
+}
+  $("#change").html("<a onclick='acerto()'>Sim</a>");
   $("#move").show();
+  c=1;
 });
 
 $("#move").hover(function() {
   change();
 });
 
-function change() 
+function acerto() {
+  alert("Te Amo!");
+}
+
+function change()
 {
-  var i = Math.floor(Math.random() * 500) + 1;
-  var j = Math.floor(Math.random() * 100) + 1;
-  $("#move").css({ top: j + 'px', left: i + 'px' });
+    var i = Math.floor(Math.random()*300)+1;
+    var j = Math.floor(Math.random()*400)+1;
+    $("#move").css({top: j+'px',left: i+'px'});
 }

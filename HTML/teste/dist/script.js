@@ -1,3 +1,4 @@
+var teste = getElementById("#change")
 $("#change").click(function () {
   $("#change").html("Sim");
   $("#move").show();
