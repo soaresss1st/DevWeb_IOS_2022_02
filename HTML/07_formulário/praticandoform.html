@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elemento form</title>
+
+</head>
+    <body>
+        <!--estrutura do elemento form-->
+        <form action="jpedro.1122fort@gmail.com" method="post">
+            <input required/>
+            <input type="submit" value="Enviar"/><br><br><br>
+            
+            <!--valor checkbox do atributo type--><br>
+            <h3><p>escolha o estado que vôce vai morar</p></h3>
+            <label for="tor">Toronto</label>
+            <input id="tor" type="checkbox"/><br>
+
+            <label for="tex">texas</label>
+            <input id="tex" type="checkbox"><br>
+
+            <label for="lv">las vegas</label>
+            <input id="lv" type="checkbox"><br><br>
+            
+            <!--valor Rádio para o atributo input-->
+            <h3><p>selecione a vacina</p></h3>
+            <label for="meg">megatrom</label>
+            <input type="radio" id="mev" name="tipo"><br>
+
+            <label for="bom">bombombi</label>
+            <input type="radio" id="bom" name="tipo"><br>
+
+            <label for="iro">bombeiro</label>
+            <input type="radio" id="iro" name="tipo"><br><br><br>
+
+            <!--elemento select, datalist e option-->
+            <label for="pão">escolha o seu pão</label>
+            <select name="pão" id="pão">
+                <option value="forma">forma</option>
+                <option value="bronha">bronha</option> 
+                <option value="francês">francês</option> 
+                <option value="baguete">baguete</option> 
+            </select><br><br><br>
+            
+           <h3><label for="times">times brasileiros com mundial</label><h3>
+            <input name="time" id="times" autocomplete="on" list="time">
+            <datalist id="time">
+                <option value="penapolense">Penapolense</option>
+                <option value="piaui">Piaui</option>
+                <option value="portuguesa">Portuguesa</option>
+                <option value="palmeiras">Palmeiras</option>
+                <option value="chapecoense">Chapecoense</option>
+            </datalist>
+
+
+        </form>
+        
+            
+            
+
+     
+            
+    </body>
+</html>
