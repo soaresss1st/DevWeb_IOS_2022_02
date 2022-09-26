@@ -1,0 +1,12 @@
+*{
+    background-color: #d1c8a3;
+    font-size: 25px;
+}
+.info {
+    background-color: #c6ad71;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #acba9d;
+}
+.title {
+    color: #e3604d;
+}
