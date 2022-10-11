@@ -9,3 +9,9 @@ var nota4 = 10;
 var media = (nota1 + nota2 + nota3 + nota4) / 4;
 
 console.log("a media é :" + media)
+
+console.clear()
+
+console.log("x" + "y" + "a" + "b")
+
+console.log(&{not})
