@@ -8,7 +8,7 @@ var nota4 = 10;
 
 var media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-console.log( `a media dos alunos é &{media}`)
+console.log( `a media dos alunos é = &{media}`)
 
 // Acessando um caracter de uma String
 var String1 = "Heloísa IOS";
