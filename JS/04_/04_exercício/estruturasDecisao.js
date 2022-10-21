@@ -1,8 +1,14 @@
 //Exercício1
 
-const preço1 = 3.39;
+var preço1 = "R$ 3,39";
 
-const preço2 = 4.50;
+var preço2 = "R$ 4,50";
 
-const preço3 = 2.80;
+var preço3 = "R$ 2,80";
 
+if (preço1 > preço2 ) {
+if (preço1 > preço3 ) {
+    console.log("R$ 3,39 É o menor!");
+}else 
+console.log("R$ 4,50 É o menor!");
+else if
