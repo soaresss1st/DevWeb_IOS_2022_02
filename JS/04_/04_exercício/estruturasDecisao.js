@@ -11,4 +11,3 @@ if (preço1 > preço3 ) {
     console.log("R$ 3,39 É o menor!");
 }else 
 console.log("R$ 4,50 É o menor!");
-else if
